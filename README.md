@@ -2,6 +2,8 @@
 [![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2006.08437-B31B1B.svg)](https://arxiv.org/abs/2011.09763)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ChristophReich1996/Cell-DETR/blob/master/LICENSE)
 
+**[Tim Prangemeier](https://www.bcs.tu-darmstadt.de/bcs_team/prangemeiertim.en.jsp), [Christoph Reich](https://github.com/ChristophReich1996) & [Heinz Koeppl](https://www.bcs.tu-darmstadt.de/bcs_team/koepplheinz.en.jsp)**
+
 This repository includes the **official** and **maintained** implementation of the paper 
 **[Attention-Based Transformers for Instance Segmentation of Cells in Microstructures](https://www.bcs.tu-darmstadt.de/media/bcs/research_4/documents/Prangemeier2020c_BIBM_cell-detr_accepted.pdf)** [(BIBM 2020)](https://ieeebibm.org/BIBM2020/).
 
