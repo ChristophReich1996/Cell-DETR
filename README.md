@@ -45,8 +45,8 @@ convolution implementation are adopted slightly and are included in this reposit
 by exicuting the following commands
 
 ```shell script
-git clone https://github.com/ChristophReich1996/Cell_DETR
-cd Cell_DETR
+git clone https://github.com/ChristophReich1996/Cell-DETR.git
+cd Cell-DETR
 pip install -r requirements.txt
 git clone https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch
 cd Deformable-Convolution-V2-PyTorch
