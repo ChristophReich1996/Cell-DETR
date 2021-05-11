@@ -42,7 +42,7 @@ are utilized base on the [official implementation](https://github.com/ml-researc
 [pixel adaptive convolutions](https://arxiv.org/abs/1904.05373) [3] [implementation](https://github.com/NVlabs/pacnet) by 
 [Nvidia](https://github.com/NVlabs) is used. The pade activation unit implementation as well as the pixel adaptive 
 convolution implementation are adopted slightly and are included in this repository. All dependencies can be installed
-by exicuting the following commands
+by executing the following commands:
 
 ```shell script
 git clone https://github.com/ChristophReich1996/Cell-DETR.git
