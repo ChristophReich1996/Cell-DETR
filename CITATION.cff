@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Code of the paper: Attention-Based Transformers for Instance Segmentation of Cells in Microstructures"
+authors:
+  - family-names: Prangemeier
+    given-names: Tim
+  - family-names: Reich
+    given-names: Christoph
+  - family-names: Koeppl
+    given-names: Heinz
+title: "Attention-Based Transformers for Instance Segmentation of Cells in Microstructures"
+version: 1.0.0
+doi: 10.1109/BIBM49941.2020.9313305
+date-released: 2020-10-19
