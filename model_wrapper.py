@@ -220,8 +220,9 @@ class ModelWrapper(object):
                 for validation_metric_bounding_box in validation_metrics_bounding_box:
                     # Calc metric
                     metric = validation_metric_bounding_box(
-                        bounding_box_predictions[batch_index, :bounding_box_labels[batch_index].shape[0]],
-                        bounding_box_labels[batch_index]).item()
+                        misc.bounding_box_xcycwh_to_x0y0x1y1(
+                            bounding_box_predictions[batch_index, :bounding_box_labels[batch_index].shape[0]]),
+                        misc.bounding_box_xcycwh_to_x0y0x1y1(bounding_box_labels[batch_index])).item()
                     # Save metric and name of metric
                     if validation_metric_bounding_box.__class__.__name__ in metrics_bounding_box.keys():
                         metrics_bounding_box[validation_metric_bounding_box.__class__.__name__].append(metric)
