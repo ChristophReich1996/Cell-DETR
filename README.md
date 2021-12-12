@@ -126,7 +126,7 @@ python main.py --test --path_to_data "trapped_yeast_cell_dataset" --cuda_devices
 
 ## Data
 A few toy/test examples of the trapped yeast cell instance segmentation dataset are included in folder [`trapped_yeast_cell_dataset`](trapped_yeast_cell_dataset).
-The full dataset can be requested from the [author's](tim.prangemeier@bcs.tu-darmstadt.de).
+The full dataset can be requested from the [authors](tim.prangemeier@bcs.tu-darmstadt.de).
 
 ## Results
 
