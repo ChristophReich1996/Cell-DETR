@@ -47,7 +47,7 @@ by executing the following commands:
 ```shell script
 git clone https://github.com/ChristophReich1996/Cell-DETR.git
 cd Cell-DETR
-pip install -r requirements.txt
+pip install --no-deps -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
 git clone https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch
 cd Deformable-Convolution-V2-PyTorch
 git checkout pytorch_1.0.0
